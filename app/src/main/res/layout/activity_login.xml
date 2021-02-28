@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/ivZapas"
+        android:layout_width="196dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/zapas" />
+
+    <EditText
+        android:id="@+id/etEmailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Introduce tu email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etContraseniaLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="30dp"
+        android:hint="Introduce tu contraseña"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegistroLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="REGISTRATE"
+        app:rippleColor="#C831A3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="O" />
+
+    <Button
+        android:id="@+id/btnAccedeLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="ACEDE"
+        app:rippleColor="#C831A3" />
+</LinearLayout>
